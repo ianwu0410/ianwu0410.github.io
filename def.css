@@ -27,13 +27,14 @@ body{
 	color:#00A1AB;
 }
 
-
+/*首頁大標*/
 .h1{
 	font-size:3rem;
 	font-weight:800;
 	line-height: 1.3em;
 }
 
+/*子分頁標題*/
 .title{
 	font-size:2.25rem;
 	font-weight: normal;
@@ -42,6 +43,7 @@ body{
 	margin-bottom: 1.5rem;
 }
 
+/*項目標題*/
 .h3{
 	font-size: 1.5rem;
 	font-weight: normal;
@@ -50,6 +52,15 @@ body{
 	padding: 0;
 }
 
+/*subtitle、項目標題補充*/
+.h5{
+	font-size:1.125rem;
+	font-weight: medium;
+	line-height: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+/*段落重點整理*/
 .h6{
 	font-size: 1rem;
 	font-weight: 200;
@@ -58,12 +69,7 @@ body{
 	padding: 0;
 }
 
-.sub-title{
-	font-size:1.125rem;
-	font-weight: 500;
-	line-height: 1.5rem;
-	margin-bottom: 1rem;
-}
+
 
 .text-button{
 	font-size: 1.125rem;
