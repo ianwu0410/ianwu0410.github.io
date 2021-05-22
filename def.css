@@ -1,101 +1,186 @@
-body{
+/*Noto Sans TC*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
 
+body{
+	font-family: 'Noto Sans TC', sans-serif;
 	font-size:16px;
 	font-weight:normal;
 	margin-top:10px;
 }
+a{
+	color:#2F5DED;
+	/*border-bottom:1px #2F5DED solid;*/
+	padding-left: 4px;
+	padding-right: 4px;
+}
+a:hover{
+	background-color: #2F5DED;
+	color:#fafafa;
+}
 
+p{
+	margin-bottom:0px;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+/*a::after{
+	content:'';
+	
+	height: 0px;
+	box-sizing: border-box;
+	border:1px #2F5DED solid;
+	position:absolute;
+	bottom:-0.25rem;
+}*/
 .color-system{
 	color:#1c1c1c;
 }
 
 .color-system-second{
 	color:#1c1c1c;
-	opacity:.70;
+	opacity:.60;
 }
 
 .color-system-forbiden{
 	color:#1c1c1c;
 	opacity:.3;
 }
-
+.color-light{
+	color:#fafafa;
+}
+.color-light-second{
+	color:#fafafa;
+	opacity:0.8;
+}
 .color-primary{
-	color:#0036C2;
+	color:#2F5DED;
+}
+.color-project1{
+	color:#5CABE5;
 }
 
 .color-project2{
-	color:#00A1AB;
+	color:rgba(0, 161, 171, 1);
 }
+.white-background{
+	background:#fff;
+}
+.colored-background{
+	background: #2F5DED;
+}
+.project1-background{
+	background: #5CABE5;
+}
+.project1-background-light{
+	background:#ECEFF1;
+}
+.project2-background{
+	background: #00A1AB;
 
-/*首頁大標*/
+}
+/*頁面大標*/
 .h1{
 	font-size:3rem;
-	font-weight:800;
+	font-weight:700;
 	line-height: 1.3em;
 }
 
-/*子分頁標題*/
-.title{
+/*區域標題*/
+.head{
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 6rem;
+}
+.h2{
 	font-size:2.25rem;
-	font-weight: normal;
+	font-weight: 600;
 	line-height: 3.125rem;
 	/*margin-top:.5rem;*/
-	margin-bottom: 1.5rem;
+	/*margin-bottom: 1.5rem;*/
 }
 
-/*項目標題*/
+/*段落標題*/
 .h3{
-	font-size: 1.5rem;
-	font-weight: normal;
-	line-height: 2rem;
+	font-size: 1.75rem;
+	font-weight: medium;
+	line-height: 2.5rem;
 	margin:0;
 	padding: 0;
 }
 
 /*subtitle、項目標題補充*/
-.h5{
-	font-size:1.125rem;
-	font-weight: medium;
-	line-height: 1.5rem;
-	margin-bottom: 1rem;
+.h4{
+	font-size:1.3rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+	margin-top: 1.5rem;
 }
 
 /*段落重點整理*/
 .h6{
 	font-size: 1rem;
 	font-weight: 200;
-	line-height: 1.7rem;
+	line-height: 1.3rem;
 	margin:0.5rem 0;
 	padding: 0;
 }
-
-
 
 .text-button{
 	font-size: 1.125rem;
 	font-weight: 800;
 	text-decoration: none;
-
+	border:0;
 }
 
 .paragraph{
 	font-size: 1rem;
 	font-weight: 400;
-	line-height: 160.2%;
-	letter-spacing: 0.03rem;
-	margin-bottom:1.25rem;
+	line-height: 181.2%;
+/*	letter-spacing: 0.07rem;*/
+	margin-top:0.5rem;
+	color:rgba(28, 28, 28, 0.8);
 }
 
 .caption{
-	font-size: 0.6rem;
+	font-size: 0.8rem;
 	font-weight: normal;
-	line-height: 0.8rem;
+	line-height: 1.4rem;
 	padding-top: 0.5rem;
 }
 .img{
 	max-width:100%;
 	height:auto;
+	z-index: 5;
+	text-align:center;
 }
+
+
 iframe{
+
+}
+.ul{
+	padding-left: 0;
+}
+.row{
+	margin-top:5rem;
+	padding: 0 2rem;
+}
+
+.mt-8{
+	margin-top: 3.75rem;
+}
+.mt-12{
+	margin-top: 7.5rem;
+}
+.mt-24{
+	margin-top: 15rem;
+}
+
+@media (max-width: 992px){
+	.row{
+		padding: 0;
+	}
 
 }
