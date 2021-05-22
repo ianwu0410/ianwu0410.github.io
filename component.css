@@ -215,7 +215,7 @@
 	border-radius:0 0 80px 0;
 }
 .header-background-project1{
-	background-image: url('png/Casestudy1/hero/heroImage@2x.png'),radial-gradient(102.57% 105.06% at 73.97% 100%, #5CABE5 0%, #2FF495 100%);;
+	background-image: url('png/Casestudy1/hero/HeroImage@2x.png'),radial-gradient(102.57% 105.06% at 73.97% 100%, #5CABE5 0%, #2FF495 100%);;
 	background-size: cover;
 	background-position:top,left;
 	background-repeat: no-repeat;
