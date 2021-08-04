@@ -151,7 +151,8 @@ ul{
 .img{
 	max-width:100%;
 	height:auto;
-	z-index: 5;
+	z-index: 1;
+	margin:0 auto;
 	text-align:center;
 }
 
@@ -194,5 +195,7 @@ iframe{
 	.row{
 		padding: 0;
 	}
-
+	.vedio{
+		max-width: 100%;
+	}
 }

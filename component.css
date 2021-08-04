@@ -9,7 +9,7 @@
 	background:#fff;
 	justify-content: space-between;
 	align-items: center;
-	z-index: 2;
+	z-index: 3;
 	}
 .nav-button{
 	padding: 0.5rem 2rem;
@@ -25,28 +25,45 @@
 	border: 3px #2F5DED solid;
 	/*border:none;*/
 	background-color: #2F5DED;
-	padding:0.5rem 4rem;
+	padding:1rem 2rem;
 	font-size: 1.125rem;
 	font-weight: 700;
 	color:#fff;
+	cursor: pointer;
 	text-decoration: none;
 	display:inline-block;
+	vertical-align: middle;
 	border-bottom-right-radius:30px; 
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
 	/*background-image:url('png/homepage/button/Arrow 5.png');*/
+	transition: border-radius 0.2s ease-out 0s;
+
+}
+.button-primary:hover{
+	/*border: 3px #fafafa solid;*/
+	border-radius:30px;
 }
 .button-secondary{
 	/*width:3rem;*/
 	display: inline-block;
+	box-sizing: border-box;
 	border:3px #1c1c1c solid;
 	padding:1rem 2rem;
 	font-size: 1.125rem;
 	font-weight: 700;
 	color:#1c1c1c;
 	background-color: #fff;
+	cursor: pointer;
 	text-decoration: none;
+	vertical-align: middle;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+	transition: border-radius 0.1s ease-out 0s;
+
 }
+.button-secondary:hover{
+	border-radius:30px;
+}
+
 .button-case{
 	display: inline-block;
 	text-decoration: none;
