@@ -17,9 +17,7 @@
 .smallnav-icon{
 	display:none;
 }
-.buttonPrimary{
 
-}
 .button-primary{
 	/*width:10rem;*/
 	border: 3px #2F5DED solid;
@@ -126,15 +124,25 @@
 	z-index:1;
 	background-color: #ccc;
 }
-
+.nav-smallscreen::before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #1c1c1c46;
+	z-index: -1;
+}
 .nav-smallscreen-list{
 	padding:2rem 2rem;
 	background-color: #fff;
+	border-top: 1px #ECEFF1 solid;
 }
 .nav-smallscreen-list:hover{
 	background-color: #2F5DED;
 	color:#fafafa;
 }
+
 /*.nav-smallscreen-list::before{
 	content:'';
 	display:block;
@@ -406,6 +414,14 @@
 	}
 	.headingMiddle{
 	margin:0 3rem;
+	}
+	.button-primary{
+		width: 100%;
+		text-align: center;
+	}
+	.button-secondary{
+		width: 100%;
+		text-align: center;
 	}
 	.intro-text{
 		padding-top:0;
